@@ -12,10 +12,10 @@
     border-radius: 35px;
 }
 
-.navbar-logo{
-    color:red;
-    font-size: 2rem;
-    cursor: pointer;
+/*correction needed*/
+.tedx-logo{
+    width: 2rem;
+    height: 1rem;
 }
 
 .navbar-menu{
@@ -32,4 +32,10 @@
     font-size: 1.2rem;
     font-weight: 500;
     padding: 0.7rem 1rem;
+}
+
+.nav-links:hover{
+    color: red;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
 }

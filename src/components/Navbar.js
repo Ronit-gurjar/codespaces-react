@@ -7,7 +7,7 @@ class Navbar extends Component{
     render(){
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">TEDxMITUJJAIN</h1>
+                <img className="tedx-logo" src="../public/logo-white.png" alt="logo"/>
                 <ul className="navbar-menu">
                 {MenuItems.map((item,index) =>{
                     return(<li key={index}>
