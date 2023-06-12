@@ -1,0 +1,37 @@
+*{
+    display: flex;
+    justify-content:center;
+}
+.NavbarItems{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 90%;
+    height: 80px;
+    border-radius: 35px;
+}
+
+.navbar-logo{
+    color:red;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navbar-menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links{
+    color: white;
+    text-decoration:none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.7rem 1rem;
+}
