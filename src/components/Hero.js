@@ -1,10 +1,13 @@
 import "./Styles/Hero.css"
-import background from "/workspaces/codespaces-react/src/assets/redforest.png"
-function Hero(){
+function Hero(props){
 return(
     <>
-    <div className="hero">
-        <img alt="hero-img" src={background}/>
+    <div className={props.cName}>
+        <img alt="hero-img" src={props.heroImg}/>
+    </div>
+    <div className="hero-text">
+        <h1>{props.title}</h1>
+        <p className="shape">{props.text}</p>
     </div>
     </>
 )

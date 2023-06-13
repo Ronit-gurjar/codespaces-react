@@ -1,15 +1,18 @@
+import Hero from "./Hero";
 import Navbar from "./Navbar";
 import "./Styles/Home.css"
-
+import home from "/workspaces/codespaces-react/src/assets/redforest3.png"
 
 function Home(){
 return(
     <>
     <Navbar/>
-    <div>
-        <h1>TEDx MIT UJJAIN</h1>
-        <p>2023</p>
-    </div>
+    <Hero
+    cName="hero"
+    heroImg={home}
+    title="TEDx MIT UJJAIN"
+    text="15.7.2023"
+    />
     </>
 )
 }

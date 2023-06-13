@@ -16,7 +16,7 @@
 
 
 .tedx-logo{
-    width: 8rem;
+    width: 9rem;
     height: 5rem;
 }
 
@@ -58,7 +58,7 @@
         width: 85%;
         height: 60px;
         border-radius: 15px;
-        z-index: 99;
+        z-index: 500;
     }
 
     .tedx-logo{
