@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./NavbarStyle.css"
+import "./Styles/NavbarStyle.css"
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 import logo from "/workspaces/codespaces-react/src/assets/logo-white.png"

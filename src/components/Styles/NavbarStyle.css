@@ -4,12 +4,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: static;
     padding: 0px 0px;
     margin: 10px 0 0 2rem;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
     width: 95%;
     height: 70px;
     border-radius: 15px;
+    z-index: 500;
 }
 
 
@@ -44,7 +46,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:840px){
     .NavbarItems{
         background-color: rgba(0, 0, 0, 0.75);
         display: flex;
@@ -60,14 +62,21 @@
     }
 
     .tedx-logo{
-        width: 3rem;
-        height: 2rem;
+        width: 5rem;
+        height: 3rem;
     }
     
     .menu-icons{
         display: block;
         color: white;
         margin-left: 4rem;
+    }
+    .menu-icons i{
+         font-size: 1.2rem;
+    }
+    .menu-icons i:hover{
+        color: red;
+        transition: all 0.2s ease-in-out;
     }
 
     .navbar-menu{
@@ -84,12 +93,14 @@
         align-items:center;
         padding: 70px 0 20px 0 ;
         margin-top: 0;
+        transition: 0.3s ease-in-out;
     }
 
     .navbar-menu.active{
         left: 0;
         opacity: 1;
         z-index: -1;
+        transition: 0.3s ease-in-out;
     }
 
     .nav-links{
