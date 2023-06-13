@@ -7,7 +7,7 @@ return(
     </div>
     <div className="hero-text">
         <h1>{props.title}</h1>
-        <p className="shape">{props.text}</p>
+        <p>{props.text}</p>
     </div>
     </>
 )
