@@ -1,5 +1,5 @@
-import Hero from "./Hero";
-import "./Styles/Home.css"
+import Hero from "./Utility/Hero";
+import "/workspaces/codespaces-react/src/components/Styles/Home.css"
 import home from "/workspaces/codespaces-react/src/assets/redforest3.png"
 
 function Home(){

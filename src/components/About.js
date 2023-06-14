@@ -1,11 +1,11 @@
-import "./Styles/Home.css"
+import "./Styles/About.css"
+import Card from "./Utility/Card";
 
 function About(){
     return(
         <>
         <div className="About">
-            <h1>About TEDX</h1>
-            <h1>About TEDX MIT UJJAIN</h1>
+            <Card/>
         </div>
         </>
     )
