@@ -20,10 +20,23 @@
     margin: 0 0 0 0;
     display: inline-block;
     width: 33rem;
-    height: 140px;
+    height: 9rem;
     border: 5px solid #ffffff;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
+    transition: 0.5s ease-in-out;
+}
+.hero-text p:hover{
+    font-size: 5em;
+    font-family: serif;
+    margin: 0 0 0 0;
+    display: inline-block;
+    width: 40rem;
+    height: 11rem;
+    border: 5px solid red;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 0.5s ease-in-out;
 }
 .hero-text h1{
     margin: 0 0 0 0;
@@ -81,6 +94,19 @@
         border: 5px solid #ffffff;
         border-bottom-left-radius: 15px;
         border-top-right-radius: 15px;
+        transition: 0.5s ease-in-out;
+    }
+    .hero-text p:hover{
+        font-size: 4rem;
+        font-family: serif;
+        margin: 0 0 0 0;
+        display: inline-block;
+        width: 17rem;
+        height: 80px;
+        border: 5px solid red;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        transition: 0.5s ease-in-out;
     }
     .hero-text h1{
         font-size: 3rem;
