@@ -1,6 +1,6 @@
 
 .NavbarItems{
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 1);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -48,7 +48,7 @@
 
 @media screen and (max-width:840px){
     .NavbarItems{
-        background-color: rgba(0, 0, 0, 0.75);
+        background-color: rgba(0, 0, 0, 1);
         display: flex;
         justify-content: space-around;
         align-items: center;
