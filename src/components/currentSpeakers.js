@@ -1,8 +1,8 @@
 import React from "react";
-import "/src/components/Styles/TeamStyles.css";
-import Instapic from "../src/assets/instagram.png";
-import Linkedinpic from "../src/assets/linkedin.png";
-import Mailpic from "../src/assets/email.png";
+import "./Styles/TeamStyles.css";
+import Instapic from "/workspaces/codespaces-react/src/assets/instagram.png";
+import Linkedinpic from "/workspaces/codespaces-react/src/assets/linkedin.png";
+import Mailpic from "/workspaces/codespaces-react/src/assets/email.png";
 
 function TeamInfo(props) {
   return (
