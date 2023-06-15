@@ -110,4 +110,10 @@
         margin-right: 10px;
         width: 200px;
     }
+    .footer__content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+    }
   }
