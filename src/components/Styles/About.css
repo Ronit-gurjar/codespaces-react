@@ -8,6 +8,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    width: auto;
     height: 100dvh;
     background-color: red;
     border-top-left-radius: 30px;
@@ -30,6 +31,7 @@
         display: flexbox;
         flex-direction: row;
         flex-wrap: wrap;
+        width: auto;
         height: fit-content;
         background-color: red;
         border-top-left-radius: 30px;
