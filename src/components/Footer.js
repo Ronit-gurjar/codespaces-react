@@ -21,7 +21,7 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <div className="footer__links">
+      <div className="footer__links" id="footer">
         <div className="implinks">
           <p>Links</p>
           <a href="https://www.ted.com">TEDx</a>

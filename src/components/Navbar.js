@@ -1,7 +1,6 @@
 import { Component } from "react";
 import "./Styles/NavbarStyle.css"
-import { MenuItems } from "./MenuItems";
-import { Link } from "react-router-dom";
+import  {HashLink as Link} from "react-router-hash-link";
 import logo from "/workspaces/codespaces-react/src/assets/logo-white.png"
 
 class Navbar extends Component{
@@ -19,12 +18,17 @@ class Navbar extends Component{
                     </i>
                 </div>
             <ul className={this.state.clicked ? "navbar-menu active" : "navbar-menu"}>
-                    {MenuItems.map((item, index) => {
-                        return (<li key={index}>
-                            <a className={item.cName} href={item.url}>{item.title}</a>
-                        </li>);
-                    })}
-                </ul>
+                {/*Add navigation links to different sections */}
+                <li><Link className="nav-links" smooth to="#top" activeClassName="selected"
+  activeStyle={{ color: 'red' }} onClick={this.handleClick}>Home</Link></li>
+                <li><Link className="nav-links" smooth to="/#about" activeClassName="selected"
+  activeStyle={{ color: 'red' }} onClick={this.handleClick}>About</Link></li>
+                
+                <li><a className="nav-links" href="#speakers">Speakers</a></li>
+                <li><a className="nav-links" href="#partners">Partners</a></li>
+                <li><a className="nav-links" href="/Team">Team</a></li>
+                <li><a className="nav-links" href="#footer" onClick={this.handleClick}>Contact</a></li>
+            </ul>
             </nav>
         )
     }

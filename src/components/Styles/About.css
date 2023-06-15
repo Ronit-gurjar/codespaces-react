@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .About{
-    margin-top:55%;
+    margin-top:60rem;
     box-shadow: 0 0 100px;
     display: flex;
     flex-direction: row;
@@ -27,7 +27,7 @@
 
 @media screen and (max-width:840px){
     .About{
-        margin-top:180%;
+        margin-top:50rem;
         display: flexbox;
         flex-direction: row;
         flex-wrap: wrap;
