@@ -51,23 +51,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        {/*MAP
-        <div className="footer__map">
-          <MapContainer
-            {...mapStyle}
-            center={marker}
-            zoom={14}
-            scrollWheelZoom={false}
-          >
-            <TileLayer
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-              attribution='Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-            />
-            <Marker position={marker}>
-              <Popup>Ujjain</Popup>
-            </Marker>
-          </MapContainer>
-        </div>*/}
+        {/*<div className="footer__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2114.8060962409745!2d75.80074294834374!3d23.17125044125409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963747a32368f65%3A0x154534689ce9ab49!2sKalidas%20Academy!5e0!3m2!1sen!2sin!4v1686891618825!5m2!1sen!2sin" width="40" height="30" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>*/}
       </div>
     </footer>
   );
