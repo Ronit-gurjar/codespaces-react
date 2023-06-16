@@ -1,6 +1,6 @@
 import React from "react";
 import TeamInfo from "./currentSpeakers";
-import speakers from "./Speakers";
+import speakers from "./Utility/speakers";
 import Navbar from "./Navbar";
 
 function CreateSpeakerCard(speakers) {

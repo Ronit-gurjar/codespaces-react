@@ -4,12 +4,15 @@ import { Link } from "react-router-dom";
 import  {HashLink} from "react-router-hash-link";
 import logo from "/workspaces/codespaces-react/src/assets/logo-white.png"
 
+
 class Navbar extends Component{
     state= {clicked : false};
     handleClick = () =>{
         this.setState({ clicked: !this.state.clicked})
     }
+
     render(){
+      
         return(
             <nav className="NavbarItems">
                 <img className="tedx-logo" src={logo} alt="logo" />
