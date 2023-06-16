@@ -1,10 +1,9 @@
-import { Route, Routes} from 'react-router-dom';
+import { Route, Routes, Switch} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import About from './components/About';
 import Footer from './components/Footer';
-import Partners from './components/Partners';
+
 import Team from './components/Team';
 
 function App() {
@@ -15,10 +14,8 @@ function App() {
         <Route exact path='/' element={<Home/>}/>
         <Route path='/Team' element={<Team/>}/>
       </Routes>
-      <About/>
-      <Partners/>
       <Footer/>
-      
+      <Navbar />
     </div>
   );
 }
