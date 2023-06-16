@@ -114,3 +114,11 @@
     }
     
 }
+    .backgroundimgblur
+    {
+        filter: blur(5px);
+    }
+    .spanred
+    {
+        color: #EB0028;
+    }
