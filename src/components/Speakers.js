@@ -5,6 +5,7 @@ function Speakers(){
     return(
         <>
         <div className="Speaker">
+            <h1 className="Heading">Speakers</h1>
             <div className="SpeakerCard">
             <SpeakerCard id="card1" img={modi} title="Narendra Modi" 
             description="Mere bhai or behno!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
