@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaInstagram, FaEnvelope, FaLinkedin } from "react-icons/fa";
 //import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "./Styles/Footer.css";
