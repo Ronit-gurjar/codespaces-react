@@ -135,7 +135,8 @@
     width: 100%;
     text-align: left;
     margin-top: 2rem;
-    margin-left: 5rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
     font-size: 3.5rem;
   }
   
