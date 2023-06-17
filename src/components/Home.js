@@ -1,9 +1,9 @@
-import "/src/components/Styles/Home.css";
-import Navbar from "/src/components/Navbar.js";
+import "/components/Styles/Home.css";
+import Navbar from ".Navbar.js";
 import home from "/src/assets/backgroundimg1.jpg";
-import About from "/src/components/About.js";
-import Partners from "/src/components/Partners.js";
-import Speakers from "./Speakers";
+import About from ".About.js";
+import Partners from ".Partners.js";
+import Speakers from ".Speakers.js";
 
 function setCountdown(eventDate) {
   const countdownTimer = setInterval(updateCountdown, 1000);

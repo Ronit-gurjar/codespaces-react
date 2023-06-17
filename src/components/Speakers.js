@@ -1,5 +1,5 @@
 import SpeakerCard from "./Utility/SpeakerCard";
-import "/src/components/Styles/Speakers.css";
+import "/components/Styles/Speakers.css";
 import modi from "/src/assets/modi.png";
 function Speakers() {
   return (

@@ -1,4 +1,4 @@
-import "/src/components/Styles/SpeakerCard.css";
+import "/components/Styles/SpeakerCard.css";
 
 function SpeakerCard(props) {
   return (
