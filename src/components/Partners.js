@@ -1,7 +1,7 @@
-import p1 from "/workspaces/codespaces-react/src/assets/p2.png"
-import aws from "/workspaces/codespaces-react/src/assets/aws.jpg";
-import su from "/workspaces/codespaces-react/src/assets/su.png";
-import "/workspaces/codespaces-react/src/components/Styles/Partners.css"
+import p1 from "/src/assets/p2.png"
+import aws from "/src/assets/aws.jpg";
+import su from "/src/assets/su.png";
+import "/src/components/Styles/Partners.css"
 
 function Partners(){
     return(
